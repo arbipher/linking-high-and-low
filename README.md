@@ -25,7 +25,9 @@ $python3 matrix.py
 | 11  | default   | at_loader | at_rpath  | ✅ success       |                       |
 | 12  | default   | at_rpath  | default   | ❌ loading_error | @rpath/libsum...dylib |
 | 12  | default   | at_rpath  | default   | ✅ success       |                       |
+| 13  | default   | at_rpath  | at_exe    | ❌ loading_error | @rpath/libsum...dylib |
 | 13  | default   | at_rpath  | at_exe    | ✅ success       |                       |
+| 14  | default   | at_rpath  | at_loader | ❌ loading_error | @rpath/libsum...dylib |
 | 14  | default   | at_rpath  | at_loader | ✅ success       |                       |
 | 15  | default   | at_rpath  | at_rpath  | ❌ loading_error | @rpath/libsum...dylib |
 | 15  | default   | at_rpath  | at_rpath  | ✅ success       |                       |
@@ -43,7 +45,9 @@ $python3 matrix.py
 | 27  | at_exe    | at_loader | at_rpath  | ✅ success       |                       |
 | 28  | at_exe    | at_rpath  | default   | ❌ loading_error | @rpath/libsum...dylib |
 | 28  | at_exe    | at_rpath  | default   | ✅ success       |                       |
+| 29  | at_exe    | at_rpath  | at_exe    | ❌ loading_error | @rpath/libsum...dylib |
 | 29  | at_exe    | at_rpath  | at_exe    | ✅ success       |                       |
+| 30  | at_exe    | at_rpath  | at_loader | ❌ loading_error | @rpath/libsum...dylib |
 | 30  | at_exe    | at_rpath  | at_loader | ✅ success       |                       |
 | 31  | at_exe    | at_rpath  | at_rpath  | ❌ loading_error | @rpath/libsum...dylib |
 | 31  | at_exe    | at_rpath  | at_rpath  | ✅ success       |                       |
@@ -61,7 +65,9 @@ $python3 matrix.py
 | 43  | at_loader | at_loader | at_rpath  | ✅ success       |                       |
 | 44  | at_loader | at_rpath  | default   | ❌ loading_error | @rpath/libsum...dylib |
 | 44  | at_loader | at_rpath  | default   | ✅ success       |                       |
+| 45  | at_loader | at_rpath  | at_exe    | ❌ loading_error | @rpath/libsum...dylib |
 | 45  | at_loader | at_rpath  | at_exe    | ✅ success       |                       |
+| 46  | at_loader | at_rpath  | at_loader | ❌ loading_error | @rpath/libsum...dylib |
 | 46  | at_loader | at_rpath  | at_loader | ✅ success       |                       |
 | 47  | at_loader | at_rpath  | at_rpath  | ❌ loading_error | @rpath/libsum...dylib |
 | 47  | at_loader | at_rpath  | at_rpath  | ✅ success       |                       |
@@ -92,11 +98,14 @@ $python3 matrix.py
 | 60  | at_rpath  | at_rpath  | default   | ❌ loading_error | @rpath/libsum...dylib |
 | 60  | at_rpath  | at_rpath  | default   | ❌ loading_error | @rpath/libadd...dylib |
 | 60  | at_rpath  | at_rpath  | default   | ✅ success       |                       |
+| 61  | at_rpath  | at_rpath  | at_exe    | ❌ loading_error | @rpath/libsum...dylib |
 | 61  | at_rpath  | at_rpath  | at_exe    | ❌ loading_error | @rpath/libadd...dylib |
 | 61  | at_rpath  | at_rpath  | at_exe    | ✅ success       |                       |
+| 62  | at_rpath  | at_rpath  | at_loader | ❌ loading_error | @rpath/libsum...dylib |
 | 62  | at_rpath  | at_rpath  | at_loader | ❌ loading_error | @rpath/libadd...dylib |
 | 62  | at_rpath  | at_rpath  | at_loader | ✅ success       |                       |
 | 63  | at_rpath  | at_rpath  | at_rpath  | ❌ loading_error | @rpath/libsum...dylib |
 | 63  | at_rpath  | at_rpath  | at_rpath  | ❌ loading_error | @rpath/libadd...dylib |
 | 63  | at_rpath  | at_rpath  | at_rpath  | ✅ success       |                       |
+
 
